@@ -1,3 +1,5 @@
+This is a sample application that demonstrates my knowledge of the Django framework and angular framework.
+
 ### 1. Backend Engineering
 
 * Architect and implement a normalized PostgreSQL database to store the data provided in `backend/raw_data`. All information from the original data should be accessible via the database.
