@@ -1,0 +1,19 @@
+player-summary-component {
+  .placeholder {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  canvas {
+    background-image: url("/assets/court_diagram.jpg");
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+    // position: relative;
+    top: 80px;
+  }
+}

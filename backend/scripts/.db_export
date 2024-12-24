@@ -1,0 +1,6 @@
+export POSTGRES_HOST=postgres
+export POSTGRES_PORT=5432
+export POSTGRES_DB=okc
+export POSTGRES_USER=okcapplicant
+export POSTGRES_PASSWORD=thunder
+export DATABASE_URL=postgres://okcapplicant:thunder@localhost:5432/okc

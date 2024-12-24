@@ -1,0 +1,1 @@
+app_player, app_team, app_games,  tables have been created  based on the entity the player, teams, games. 2 new tables and entities have been added app_player_stat and app_shots to maintain player shot and game stat data both having player_id & game_id as composite primary key.

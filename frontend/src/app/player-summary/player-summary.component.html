@@ -1,0 +1,9 @@
+<div style="display: block;" class="chart">
+    <mat-form-field>
+        <mat-select [(ngModel)]="playerID" [ngModelOptions]="{standalone: true}" (selectionChange)="changeParams()">
+            <mat-option *ngFor="let _ of [].constructor(31); let i = index" [value]="i + 1">{{ i + 1}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <canvas baseChart [datasets]="labelMFL" [type]="'scatter'" (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)"></canvas>
+</div>
